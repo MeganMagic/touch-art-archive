@@ -1,0 +1,44 @@
+.Archive {
+    position : relative;
+    
+    &__container {
+      width : 1000px;
+  
+      position : absolute;
+      left : 50%;
+      top : 200px;
+      transform : translateX(-50%);
+  
+      //temporary setting
+      //border : 1px solid $light-gray;
+  
+      .title { 
+        margin-bottom : 70px;
+      }
+  
+      .tags {
+        display : flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap : 10px;
+  
+        margin-bottom : 40px;
+  
+        li {
+          height : 50px;
+          line-height : 50px;
+  
+          padding : 0px 32px;
+          border-radius : 100px;
+  
+          background-color : $light-gray;
+          font-size: 18px;
+        
+          &.selected {
+            background-color : $orange;
+            color : $white;
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,33 @@
+.Logo {
+    position : absolute;
+    top : 70px;
+    right : 50px;
+  
+    display: flex;
+  
+    .logo-shape {
+      display: flex;
+  
+      .item {
+        width : 57px;
+        height : 70px;
+        background-color: $light-gray;
+        border-radius : 50px 50px 0 0 ;
+      
+        &:first-child {
+          margin-right : 2px;
+          border-radius : 0 0 50px 50px;
+        }
+      }
+    }
+  
+    .logo-title {
+      color : $light-gray;
+      font-size : 18px;
+      font-weight: 700;
+      line-height: 26px;
+      white-space: pre-line;
+  
+      margin-left : 15px;
+    }
+  }

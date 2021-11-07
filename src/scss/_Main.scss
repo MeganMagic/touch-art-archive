@@ -1,0 +1,82 @@
+.Main {
+    position : relative;
+  }
+  
+  .Main__archive {
+    width : 900px;
+    height : 650px;
+  
+    position : relative;
+    top : 200px;
+    left : 100px;
+  
+    border : 1px solid $light-gray;
+    border-radius: 50%;
+  
+    .title {
+      position : absolute;
+      left : 50%;
+      transform: translate(-50%, -50%);
+  
+      padding : 0 10px;
+      background-color : $dark-gray;
+    }
+  
+    .archiveBtn {
+      position : absolute;
+      top : 50%;
+      transform: translateY(-50%);
+  
+      width : 350px;
+      height : 350px;
+      border : 1px solid $light-gray;
+      border-radius: 50%;
+  
+      line-height: 350px;
+      text-align: center;
+  
+      cursor: pointer;
+      transition : all 0.3s ease;
+  
+      &.korean {
+        left : 50px;
+      }
+      &.western {
+        right : 50px;
+      }
+  
+      &:hover {
+        background-color: $orange;
+        color : $white;
+        border-color : $orange;
+      }
+    }
+  }
+  
+  
+  .Main__about {
+    width : 250px;
+    height : 250px;
+  
+    position : absolute;
+    top : calc(200px + 325px );
+    right : 100px;
+    transform: translateY(-50%);
+  
+    border : 1px solid $light-gray;
+    border-radius: 50%;
+  
+    line-height: 250px;
+    text-align: center;
+    
+    cursor: pointer;
+    transition : all 0.3s ease;
+    
+    &:hover {
+      background-color: $orange;
+      color : $white;
+      border-color : $orange;
+    }
+  }
+  
+  
