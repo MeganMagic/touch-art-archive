@@ -1,8 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux';
+import { LanguageState } from '../language'
 
 const Main : React.FC = () => {
-    
+    const language = useSelector((state: LanguageState) => state.language);
+
     const element : JSX.Element = (
         <div className="Main">
             <div className="Main__archive">
@@ -17,8 +20,8 @@ const Main : React.FC = () => {
             </Link>
             </div>
 
-            <div className="Main__about">
-            <div className="font-global">about</div>
+            <div className="Main__about" >
+                <div className="font-global">about</div>
             </div>
         </div>
     );
