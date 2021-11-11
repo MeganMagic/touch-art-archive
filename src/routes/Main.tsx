@@ -1,14 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import Logo from '../components/Logo';
-
 const Main : React.FC = () => {
     
     const element : JSX.Element = (
-        <div className="Main container">
-            <Logo />
-
+        <div className="Main">
             <div className="Main__archive">
             <div className="title font-global">Archive</div>
 

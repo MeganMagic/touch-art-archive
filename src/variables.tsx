@@ -1,11 +1,19 @@
-import WESTERNDATA from "./data/western.json";
-import KOREANNDATA from "./data/western.json";
+export const WESTERN : string = "werstern"
+export const KOREAN : string = "korean"
 
-export type RegionData = {
+export type Region = {
     regionId : string;
     title : string;
-    data : Array<ArtData>;
 }
+export const RegionWestern : Region = {
+    regionId : WESTERN,
+    title : 'Western',
+}
+export const RegionKorean : Region = {
+    regionId : KOREAN,
+    title : "Korean",
+}
+
 
 export type ArtData = {
     artworkId : string;
@@ -14,21 +22,10 @@ export type ArtData = {
     title_en: string;
     artist_en: string;
     year: string;
-    material: string;
+    material_ko: string;
+    material_en: string;
     dimensions: string;
     trend: string;
     school: string;
     imgLink : string;
-}
-
-export const WesternData : RegionData = {
-    regionId : 'WESTERN',
-    title : 'Western',
-    data : WESTERNDATA
-}
-
-export const KoreanData : RegionData = {
-    regionId : "KOREAN",
-    title : "Korean",
-    data : KOREANNDATA
 }

@@ -1,10 +1,11 @@
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const BackButton = () => {
-  const history = useHistory();
+  const navigate = useNavigate();
 
-  const handleHistoryBack = () => {
-    history.goBack();
+  const handleHistoryBack = (e : React.MouseEvent<HTMLButtonElement>) => {
+    e.preventDefault();
+    navigate(-1)
   };
 
   return (

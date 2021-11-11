@@ -1,23 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { ArtData } from "../variables";
 
 type FigureProps = {
-    id : string;
-    img : string;
-    title : string;
-    artist : string;
+    data : ArtData
 }
 
-const Figure : React.FC<FigureProps> = ({ id, img, title, artist }) => {
+const Figure : React.FC<FigureProps> = ({ data }) => {
   const element = (
-    <Link to={`/artwork/${id}`}>
-      <figure>
-        <img src={img} alt={title} />
+      <div className="figure">
+        <Link to={`/artwork/${data.artworkId}`}>
 
-        <figcaption>{title}</figcaption>
-        <figcaption className="figure-artist">{artist}</figcaption>
-      </figure>
-    </Link>
+            <img src={data.imgLink} alt={data.title_en} />
+            <div className="caption">{data.title_en}</div>
+            <div className="caption figure-artist">{data.artist_en}</div>
+            
+        </Link>
+      </div>
   );
 
   return element;

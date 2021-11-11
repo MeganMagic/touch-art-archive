@@ -2,7 +2,7 @@
     column-width:300px;
     border: 0px solid green;
   
-    figure {
+    .figure {
       display : inline-block;
       border: 0px solid red;
       margin : 0;
@@ -13,7 +13,7 @@
       img {
         width : 100%;
       }
-      figcaption {
+      .caption {
         font-weight:700; 
         font-size: 16px; 
         color: $light-gray;
