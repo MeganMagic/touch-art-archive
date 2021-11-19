@@ -11,7 +11,9 @@
         "dimensions":"-",
         "trend":"구석기",
         "school":"Paleolithic",
-        "imgLink":"https://i.imgur.com/y6kpoxy.png"
+        "imgLink":"https://i.imgur.com/y6kpoxy.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w1.stl",
+        "sketchfabLink":"https://sketchfab.com/models/70686c44ac974809a4e4eb171c0d630a/embed"
     },
     {
         "artworkId":"artwork-western-2",
@@ -25,7 +27,9 @@
         "dimensions":"-",
         "trend":"구석기",
         "school":"Paleolithic",
-        "imgLink":"https://i.imgur.com/ved5gMi.png"
+        "imgLink":"https://i.imgur.com/ved5gMi.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w2.stl",
+        "sketchfabLink":"https://sketchfab.com/models/961f0a68ca1b41638e3f056cd353266f/embed"
     },
     {
         "artworkId":"artwork-western-3",
@@ -39,7 +43,9 @@
         "dimensions":"-",
         "trend":"고대 메소포타미아",
         "school":"Ancient Mesopotamia",
-        "imgLink":"https://i.imgur.com/W7mg3ym.png"
+        "imgLink":"https://i.imgur.com/W7mg3ym.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w3.stl",
+        "sketchfabLink":"https://sketchfab.com/models/fb4a149eedb64516b4ab6155c5cdac1b/embed"
     },
     {
         "artworkId":"artwork-western-4",
@@ -53,7 +59,9 @@
         "dimensions":"-",
         "trend":"고대 메소포타미아",
         "school":"Ancient Mesopotamia",
-        "imgLink":"https://i.imgur.com/UQxAgsa.png"
+        "imgLink":"https://i.imgur.com/UQxAgsa.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w4.stl",
+        "sketchfabLink":"https://sketchfab.com/models/172ba46b5b3d40308d3d06ff61989e38/embed"
     },
     {
         "artworkId":"artwork-western-5",
@@ -67,7 +75,9 @@
         "dimensions":"-",
         "trend":"에게 문명",
         "school":"Aegean civilization",
-        "imgLink":"https://i.imgur.com/7H4e7eD.png"
+        "imgLink":"https://i.imgur.com/7H4e7eD.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w5.stl",
+        "sketchfabLink":"https://sketchfab.com/models/f8247b9caffd46608de45c6f3c6d110b/embed"
     },
     {
         "artworkId":"artwork-western-6",
@@ -81,7 +91,9 @@
         "dimensions":"-",
         "trend":"비잔틴",
         "school":"Byzantine",
-        "imgLink":"https://i.imgur.com/Za6lXsD.png"
+        "imgLink":"https://i.imgur.com/Za6lXsD.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w6.stl",
+        "sketchfabLink":"https://sketchfab.com/models/46364182717948299ca87951899f3492/embed"
     },
     {
         "artworkId":"artwork-western-7",
@@ -95,7 +107,9 @@
         "dimensions":"385 x 223 cm",
         "trend":"비잔틴",
         "school":"Byzantine",
-        "imgLink":"https://i.imgur.com/rJk3IDj.png"
+        "imgLink":"https://i.imgur.com/rJk3IDj.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w7.stl",
+        "sketchfabLink":"https://sketchfab.com/models/e1a20ce330d04b52b9fe014014b95a69/embed"
     },
     {
         "artworkId":"artwork-western-8",
@@ -109,7 +123,9 @@
         "dimensions":"50cm x 70m",
         "trend":"로마네스크",
         "school":"Romanesque art",
-        "imgLink":"https://i.imgur.com/nSQM9wI.png"
+        "imgLink":"https://i.imgur.com/nSQM9wI.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w8.stl",
+        "sketchfabLink":"https://sketchfab.com/models/54ce653eb6334909a0f8a50eb4ef1e96/embed"
     },
     {
         "artworkId":"artwork-western-9",
@@ -123,7 +139,9 @@
         "dimensions":"-",
         "trend":"고딕",
         "school":"Gothic",
-        "imgLink":"https://i.imgur.com/H9fh995.png"
+        "imgLink":"https://i.imgur.com/H9fh995.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w9.stl",
+        "sketchfabLink":"https://sketchfab.com/models/39aadee7bc2f4492be6ba07589727aff/embed"
     },
     {
         "artworkId":"artwork-western-10",
@@ -137,7 +155,9 @@
         "dimensions":"-",
         "trend":"르네상스",
         "school":"Renaissance",
-        "imgLink":"https://i.imgur.com/ZXXQ7HI.png"
+        "imgLink":"https://i.imgur.com/ZXXQ7HI.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w10.stl",
+        "sketchfabLink":"https://sketchfab.com/models/ab8dacd5d82e443fb49f872438787a99/embed"
     },
     {
         "artworkId":"artwork-western-11",
@@ -151,7 +171,9 @@
         "dimensions":"880 x 700 cm",
         "trend":"르네상스",
         "school":"Renaissance",
-        "imgLink":"https://i.imgur.com/CHqOpKG.png"
+        "imgLink":"https://i.imgur.com/CHqOpKG.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w11.stl",
+        "sketchfabLink":"https://sketchfab.com/models/2d1152705309410d82cfa8821c333ca0/embed"
     },
     {
         "artworkId":"artwork-western-12",
@@ -165,7 +187,9 @@
         "dimensions":"77cm x 53cm",
         "trend":"르네상스",
         "school":"Renaissance",
-        "imgLink":"https://i.imgur.com/TACtE04.png"
+        "imgLink":"https://i.imgur.com/TACtE04.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w12.stl",
+        "sketchfabLink":"https://sketchfab.com/models/466a30c8dcca41788705eb365d80adae/embed"
     },
     {
         "artworkId":"artwork-western-13",
@@ -179,7 +203,9 @@
         "dimensions":"5m x 7.7m",
         "trend":"르네상스",
         "school":"Renaissance",
-        "imgLink":"https://i.imgur.com/hSo77OS.png"
+        "imgLink":"https://i.imgur.com/hSo77OS.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w13.stl",
+        "sketchfabLink":"https://sketchfab.com/models/8de9f49f603248598d927a4a0646dd69/embed"
     },
     {
         "artworkId":"artwork-western-14",
@@ -193,7 +219,9 @@
         "dimensions":"216 cm × 132 cm",
         "trend":"매너리즘",
         "school":"Mannerism",
-        "imgLink":"https://i.imgur.com/TW1CekF.png"
+        "imgLink":"https://i.imgur.com/TW1CekF.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w14.stl",
+        "sketchfabLink":"https://sketchfab.com/models/8711c6afaf734fc69bdc86765b4c5c4d/embed"
     },
     {
         "artworkId":"artwork-western-15",
@@ -207,7 +235,9 @@
         "dimensions":"169.5 X 216.5 cm",
         "trend":"바로크",
         "school":"Baroque",
-        "imgLink":"https://i.imgur.com/WJSxZQ6.png"
+        "imgLink":"https://i.imgur.com/WJSxZQ6.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w15.stl",
+        "sketchfabLink":"https://sketchfab.com/models/c0bdfb628fc54de5aa129aac742e0d3f/embed"
     },
     {
         "artworkId":"artwork-western-16",
@@ -221,7 +251,9 @@
         "dimensions":"201cm×157cm",
         "trend":"로코코",
         "school":"Rococo",
-        "imgLink":"https://i.imgur.com/QBymkTB.png"
+        "imgLink":"https://i.imgur.com/QBymkTB.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w16.stl",
+        "sketchfabLink":"https://sketchfab.com/models/800706fbda3e4c8795e796d20f284bf3/embed"
     },
     {
         "artworkId":"artwork-western-17",
@@ -235,7 +267,9 @@
         "dimensions":"81x64cm",
         "trend":"로코코",
         "school":"Rococo",
-        "imgLink":"https://i.imgur.com/iyQ9V53.png"
+        "imgLink":"https://i.imgur.com/iyQ9V53.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w17.stl",
+        "sketchfabLink":"https://sketchfab.com/models/fc58f925ba87491ab7b9bed73277bba3/embed"
     },
     {
         "artworkId":"artwork-western-18",
@@ -249,7 +283,9 @@
         "dimensions":"129 x 194 cm",
         "trend":"로코코",
         "school":"Rococo",
-        "imgLink":"https://i.imgur.com/V4Twsxm.png"
+        "imgLink":"https://i.imgur.com/V4Twsxm.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w18.stl",
+        "sketchfabLink":"https://sketchfab.com/models/4c5da4d7c3d8497ba06fbb9a0e64af0e/embed"
     },
     {
         "artworkId":"artwork-western-19",
@@ -263,7 +299,9 @@
         "dimensions":"3.26m x 4.2m",
         "trend":"신고전주의",
         "school":"Neo-Classicism",
-        "imgLink":"https://i.imgur.com/D2Uwe8u.png"
+        "imgLink":"https://i.imgur.com/D2Uwe8u.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w19.stl",
+        "sketchfabLink":"https://sketchfab.com/models/14aa8c85ece54afc912e0e97092cd20a/embed"
     },
     {
         "artworkId":"artwork-western-20",
@@ -277,7 +315,9 @@
         "dimensions":"128 x 165 cm",
         "trend":"신고전주의",
         "school":"Neo-Classicism",
-        "imgLink":"https://i.imgur.com/WCQJlFu.png"
+        "imgLink":"https://i.imgur.com/WCQJlFu.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w20.stl",
+        "sketchfabLink":"https://sketchfab.com/models/8c51d4ad6cf34960b270aa928cd6d29d/embed"
     },
     {
         "artworkId":"artwork-western-21",
@@ -291,7 +331,9 @@
         "dimensions":"1.21m x 91cm",
         "trend":"신고전주의",
         "school":"Neo-Classicism",
-        "imgLink":"https://i.imgur.com/KckeVEO.png"
+        "imgLink":"https://i.imgur.com/KckeVEO.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w21.stl",
+        "sketchfabLink":"https://sketchfab.com/models/26102d64944e4978969df661f09494d1/embed"
     },
     {
         "artworkId":"artwork-western-22",
@@ -305,7 +347,9 @@
         "dimensions":"325 x 260 cm",
         "trend":"낭만주의",
         "school":"Romanticism",
-        "imgLink":"https://i.imgur.com/rrYYait.png"
+        "imgLink":"https://i.imgur.com/rrYYait.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w22.stl",
+        "sketchfabLink":"https://sketchfab.com/models/0bfdb314d2b0483e9871a630b0e9be00/embed"
     },
     {
         "artworkId":"artwork-western-23",
@@ -319,7 +363,9 @@
         "dimensions":"4.91m x 7.16m",
         "trend":"낭만주의",
         "school":"Romanticism",
-        "imgLink":"https://i.imgur.com/IA6bDXl.png"
+        "imgLink":"https://i.imgur.com/IA6bDXl.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w23.stl",
+        "sketchfabLink":"https://sketchfab.com/models/5c22583f9e034af5a5ceadbb1c506e6e/embed"
     },
     {
         "artworkId":"artwork-western-24",
@@ -333,7 +379,9 @@
         "dimensions":"56cm x 66cm",
         "trend":"자연주의",
         "school":"Naturalism",
-        "imgLink":"https://i.imgur.com/kLkDNue.png"
+        "imgLink":"https://i.imgur.com/kLkDNue.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w24.stl",
+        "sketchfabLink":"https://sketchfab.com/models/b948d40dfaf743ad966e70c6e63ee935/embed"
     },
     {
         "artworkId":"artwork-western-25",
@@ -347,7 +395,9 @@
         "dimensions":"84cm x 1.12m",
         "trend":"자연주의",
         "school":"Naturalism",
-        "imgLink":"https://i.imgur.com/8icT87o.png"
+        "imgLink":"https://i.imgur.com/8icT87o.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w25.stl",
+        "sketchfabLink":"https://sketchfab.com/models/c51772e793cb4f5b94bc4d270a80071d/embed"
     },
     {
         "artworkId":"artwork-western-26",
@@ -361,7 +411,9 @@
         "dimensions":"1.65m x 2.57m",
         "trend":"사실주의",
         "school":"Realism",
-        "imgLink":"https://i.imgur.com/XPPowwQ.png"
+        "imgLink":"https://i.imgur.com/XPPowwQ.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w26.stl",
+        "sketchfabLink":"https://sketchfab.com/models/22237362f02c471c84d8bc65172e0b59/embed"
     },
     {
         "artworkId":"artwork-western-27",
@@ -375,7 +427,9 @@
         "dimensions":"1.29m x 1.49m",
         "trend":"사실주의",
         "school":"Realism",
-        "imgLink":"https://i.imgur.com/aI3C9nH.png"
+        "imgLink":"https://i.imgur.com/aI3C9nH.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w27.stl",
+        "sketchfabLink":"https://sketchfab.com/models/f3a4f9ae814244e6906ade35e6412c56/embed"
     },
     {
         "artworkId":"artwork-western-28",
@@ -389,7 +443,9 @@
         "dimensions":"48cm x 63cm",
         "trend":"인상주의",
         "school":"Impressionism",
-        "imgLink":"https://i.imgur.com/OC71yXe.png"
+        "imgLink":"https://i.imgur.com/OC71yXe.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w28.stl",
+        "sketchfabLink":"https://sketchfab.com/models/c3b192fc1152436ebabe6231fdbdbfdb/embed"
     },
     {
         "artworkId":"artwork-western-29",
@@ -403,7 +459,9 @@
         "dimensions":"100x300 cm",
         "trend":"인상주의",
         "school":"Impressionism",
-        "imgLink":"https://i.imgur.com/0gC95bU.png"
+        "imgLink":"https://i.imgur.com/0gC95bU.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w29.stl",
+        "sketchfabLink":"https://sketchfab.com/models/b1f11524c15f4a219fb1c60bc82c4721/embed"
     },
     {
         "artworkId":"artwork-western-30",
@@ -417,7 +475,9 @@
         "dimensions":"1m x 82cm",
         "trend":"인상주의",
         "school":"Impressionism",
-        "imgLink":"https://i.imgur.com/jZKjBQH.png"
+        "imgLink":"https://i.imgur.com/jZKjBQH.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w30.stl",
+        "sketchfabLink":"https://sketchfab.com/models/11171df6c43742b49aef7b5a77fc79d9/embed"
     },
     {
         "artworkId":"artwork-western-31",
@@ -431,7 +491,9 @@
         "dimensions":"2.08m x 2.64m",
         "trend":"인상주의",
         "school":"Impressionism",
-        "imgLink":"https://i.imgur.com/jnOJ1M7.png"
+        "imgLink":"https://i.imgur.com/jnOJ1M7.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w31.stl",
+        "sketchfabLink":"https://sketchfab.com/models/34ffaadfb9d044a09f118ab68051d471/embed"
     },
     {
         "artworkId":"artwork-western-32",
@@ -445,7 +507,9 @@
         "dimensions":"160 cm x 97 cm",
         "trend":"인상주의",
         "school":"Impressionism",
-        "imgLink":"https://i.imgur.com/fDnuI5b.png"
+        "imgLink":"https://i.imgur.com/fDnuI5b.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w32.stl",
+        "sketchfabLink":"https://sketchfab.com/models/4740fbe77db84e39894e54c08953ce45/embed"
     },
     {
         "artworkId":"artwork-western-33",
@@ -459,7 +523,9 @@
         "dimensions":"73cm x 92cm",
         "trend":"후기 인상주의",
         "school":"Post-Impressionism",
-        "imgLink":"https://i.imgur.com/s156mLa.png"
+        "imgLink":"https://i.imgur.com/s156mLa.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w33.stl",
+        "sketchfabLink":"https://sketchfab.com/models/f3e1875ef7a64e1297ce0e4eb44d0c75/embed"
     },
     {
         "artworkId":"artwork-western-34",
@@ -473,7 +539,9 @@
         "dimensions":"61cm x 91cm",
         "trend":"후기 인상주의",
         "school":"Post-Impressionism",
-        "imgLink":"https://i.imgur.com/sh56Mbs.png"
+        "imgLink":"https://i.imgur.com/sh56Mbs.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w34.stl",
+        "sketchfabLink":"https://sketchfab.com/models/d8c6b62c2908441cb5dc5d809976b0ae/embed"
     },
     {
         "artworkId":"artwork-western-35",
@@ -487,7 +555,9 @@
         "dimensions":"65cm x 80cm",
         "trend":"후기 인상주의",
         "school":"Post-Impressionism",
-        "imgLink":"https://i.imgur.com/RgT7Fbc.png"
+        "imgLink":"https://i.imgur.com/RgT7Fbc.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w35.stl",
+        "sketchfabLink":"https://sketchfab.com/models/89a49cc4993546868f8ad6a89a66c350/embed"
     },
     {
         "artworkId":"artwork-western-36",
@@ -501,7 +571,9 @@
         "dimensions":"73.9cm x 92.1cm cm",
         "trend":"후기 인상주의",
         "school":"Post-Impressionism",
-        "imgLink":"https://i.imgur.com/Yt4ardd.png"
+        "imgLink":"https://i.imgur.com/Yt4ardd.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w36.stl",
+        "sketchfabLink":"https://sketchfab.com/models/a1a3eaafa87a463e917a13ca45fa7599/embed"
     },
     {
         "artworkId":"artwork-western-37",
@@ -515,7 +587,9 @@
         "dimensions":"65cm x 54cm",
         "trend":"후기 인상주의",
         "school":"Post-Impressionism",
-        "imgLink":"https://i.imgur.com/kfKXdEw.png"
+        "imgLink":"https://i.imgur.com/kfKXdEw.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w37.stl",
+        "sketchfabLink":"https://sketchfab.com/models/6dd7e6b779c94a9d9d9d15824ffd33e6/embed"
     },
     {
         "artworkId":"artwork-western-38",
@@ -529,7 +603,9 @@
         "dimensions":"65 x 80 cm",
         "trend":"후기 인상주의",
         "school":"Post-Impressionism",
-        "imgLink":"https://i.imgur.com/l8PzXhi.png"
+        "imgLink":"https://i.imgur.com/l8PzXhi.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w38.stl",
+        "sketchfabLink":"https://sketchfab.com/models/f59623b7bd6847f18c362b79c2244c5e/embed"
     },
     {
         "artworkId":"artwork-western-39",
@@ -543,7 +619,9 @@
         "dimensions":"207х308cm",
         "trend":"신인상주의",
         "school":"Neo-Impressionism",
-        "imgLink":"https://i.imgur.com/ENmFDRf.png"
+        "imgLink":"https://i.imgur.com/ENmFDRf.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w39.stl",
+        "sketchfabLink":"https://sketchfab.com/models/293fb9e4056e4968b6e48dc67f7c9860/embed"
     },
     {
         "artworkId":"artwork-western-40",
@@ -557,7 +635,9 @@
         "dimensions":"1.8m x 2.2m",
         "trend":"야수주의",
         "school":"Fauvism",
-        "imgLink":"https://i.imgur.com/rfODwK6.png"
+        "imgLink":"https://i.imgur.com/rfODwK6.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w40.stl",
+        "sketchfabLink":"https://sketchfab.com/models/cf9fd29de2e14dd5899a87d5da74c2f7/embed"
     },
     {
         "artworkId":"artwork-western-41",
@@ -571,7 +651,9 @@
         "dimensions":"1.45m x 97cm",
         "trend":"야수주의",
         "school":"Fauvism",
-        "imgLink":"https://i.imgur.com/PQCYU4V.png"
+        "imgLink":"https://i.imgur.com/PQCYU4V.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w41.stl",
+        "sketchfabLink":"https://sketchfab.com/models/1cf3698e764b46009a6864dc3b728608/embed"
     },
     {
         "artworkId":"artwork-western-42",
@@ -585,7 +667,9 @@
         "dimensions":"1.16m x 89cm",
         "trend":"야수주의",
         "school":"Fauvism",
-        "imgLink":"https://i.imgur.com/aIqo8SY.png"
+        "imgLink":"https://i.imgur.com/aIqo8SY.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w42.stl",
+        "sketchfabLink":"https://sketchfab.com/models/9dd60f765eef4c1abd36e8c14b339f0b/embed"
     },
     {
         "artworkId":"artwork-western-43",
@@ -599,7 +683,9 @@
         "dimensions":"2.87m x 2.88m",
         "trend":"야수주의",
         "school":"Fauvism",
-        "imgLink":"https://i.imgur.com/6Z6IGQo.png"
+        "imgLink":"https://i.imgur.com/6Z6IGQo.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w43.stl",
+        "sketchfabLink":"https://sketchfab.com/models/d6cb1d5e9d314b40855f8e027dc16d73/embed"
     },
     {
         "artworkId":"artwork-western-44",
@@ -613,7 +699,9 @@
         "dimensions":"260 cm × 391 cm",
         "trend":"야수주의",
         "school":"Fauvism",
-        "imgLink":"https://i.imgur.com/3dQ38A4.jpg"
+        "imgLink":"https://i.imgur.com/3dQ38A4.jpg",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w44.stl",
+        "sketchfabLink":"https://sketchfab.com/models/c6c672a084fa453c95d65817ab054569/embed"
     },
     {
         "artworkId":"artwork-western-45",
@@ -627,7 +715,9 @@
         "dimensions":"73.5 x 91 cm",
         "trend":"표현주의",
         "school":"Expressionism",
-        "imgLink":"https://i.imgur.com/g4mSagx.png"
+        "imgLink":"https://i.imgur.com/g4mSagx.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w45.stl",
+        "sketchfabLink":"https://sketchfab.com/models/fed1dbc6687e4327af295a9b25f3b71a/embed"
     },
     {
         "artworkId":"artwork-western-46",
@@ -641,7 +731,9 @@
         "dimensions":"84.5 x 121cm",
         "trend":"표현주의",
         "school":"Expressionism",
-        "imgLink":"https://i.imgur.com/GFVHwoQ.png"
+        "imgLink":"https://i.imgur.com/GFVHwoQ.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w46.stl",
+        "sketchfabLink":"https://sketchfab.com/models/7eabc25ac0c2457ba8eaa69de7beffa3/embed"
     },
     {
         "artworkId":"artwork-western-47",
@@ -655,7 +747,9 @@
         "dimensions":"94 x 73cm",
         "trend":"표현주의",
         "school":"Expressionism",
-        "imgLink":"https://i.imgur.com/cAeTWSI.png"
+        "imgLink":"https://i.imgur.com/cAeTWSI.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w47.stl",
+        "sketchfabLink":"https://sketchfab.com/models/62976a2199ad45d68a20ea109237738c/embed"
     },
     {
         "artworkId":"artwork-western-48",
@@ -669,7 +763,9 @@
         "dimensions":"59.5 x 43.1cm",
         "trend":"표현주의",
         "school":"Expressionism",
-        "imgLink":"https://i.imgur.com/u5se75e.png"
+        "imgLink":"https://i.imgur.com/u5se75e.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w48.stl",
+        "sketchfabLink":"https://sketchfab.com/models/18acb613339540e0a327fadc6b1b3ae9/embed"
     },
     {
         "artworkId":"artwork-western-49",
@@ -683,7 +779,9 @@
         "dimensions":"243.9 cm × 233.7 cm",
         "trend":"입체주의",
         "school":"Cubism",
-        "imgLink":"https://i.imgur.com/NDtjNGj.png"
+        "imgLink":"https://i.imgur.com/NDtjNGj.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w49.stl",
+        "sketchfabLink":"https://sketchfab.com/models/881918e2fdb944e995f1a70475806c12/embed"
     },
     {
         "artworkId":"artwork-western-50",
@@ -697,7 +795,9 @@
         "dimensions":"61cm x 36cm x 48cm",
         "trend":"다다이즘",
         "school":"Dadaism",
-        "imgLink":"https://i.imgur.com/cxOurtK.png"
+        "imgLink":"https://i.imgur.com/cxOurtK.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w50.stl",
+        "sketchfabLink":"https://sketchfab.com/models/b47609997f934af6a62dcd1164d54228/embed"
     },
     {
         "artworkId":"artwork-western-51",
@@ -711,7 +811,9 @@
         "dimensions":"89.8 cm × 109.8 cm",
         "trend":"미래주의",
         "school":"Futurism",
-        "imgLink":"https://i.imgur.com/IivQmOS.png"
+        "imgLink":"https://i.imgur.com/IivQmOS.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w51.stl",
+        "sketchfabLink":"https://sketchfab.com/models/68d3fe8a94af44748f2cb45026528e63/embed"
     },
     {
         "artworkId":"artwork-western-52",
@@ -725,7 +827,9 @@
         "dimensions":"99 x 100 cm",
         "trend":"초현실주의",
         "school":"Surrealism",
-        "imgLink":"https://i.imgur.com/cv2rMxq.png"
+        "imgLink":"https://i.imgur.com/cv2rMxq.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w52.stl",
+        "sketchfabLink":"https://sketchfab.com/models/45ef455cb18541028e5456cb90e4dedf/embed"
     },
     {
         "artworkId":"artwork-western-53",
@@ -739,7 +843,9 @@
         "dimensions":"24cm x 33cm",
         "trend":"초현실주의",
         "school":"Surrealism",
-        "imgLink":"https://i.imgur.com/t5xmO3N.png"
+        "imgLink":"https://i.imgur.com/t5xmO3N.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w53.stl",
+        "sketchfabLink":"https://sketchfab.com/models/d5c48621f0a442218c9ea8449e461549/embed"
     },
     {
         "artworkId":"artwork-western-54",
@@ -753,7 +859,9 @@
         "dimensions":"1.27m x 1.27m",
         "trend":"추상미술",
         "school":"Abstract Art",
-        "imgLink":"https://i.imgur.com/j6xQSlJ.png"
+        "imgLink":"https://i.imgur.com/j6xQSlJ.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w54.stl",
+        "sketchfabLink":"https://sketchfab.com/models/e50f588cd5174026a276426eb3e16e58/embed"
     },
     {
         "artworkId":"artwork-western-55",
@@ -767,7 +875,9 @@
         "dimensions":"50*50cm",
         "trend":"추상미술",
         "school":"Abstract Art",
-        "imgLink":"https://i.imgur.com/5BIew1e.png"
+        "imgLink":"https://i.imgur.com/5BIew1e.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w55.stl",
+        "sketchfabLink":"https://sketchfab.com/models/62fae5abbe324b7ba0be209564ee2887/embed"
     },
     {
         "artworkId":"artwork-western-56",
@@ -781,7 +891,9 @@
         "dimensions":"266.7 cm × 525.8 cm",
         "trend":"추상 표현주의",
         "school":"Abstract Expressionism",
-        "imgLink":"https://i.imgur.com/LTUiXB8.jpg"
+        "imgLink":"https://i.imgur.com/LTUiXB8.jpg",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w56.stl",
+        "sketchfabLink":"https://sketchfab.com/models/1ea96a9b34cf4bed92223f46a52b85ba/embed"
     },
     {
         "artworkId":"artwork-western-57",
@@ -795,7 +907,9 @@
         "dimensions":"-",
         "trend":"팝 아트",
         "school":"Pop Art",
-        "imgLink":"https://i.imgur.com/RfDXUDR.png"
+        "imgLink":"https://i.imgur.com/RfDXUDR.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w57.stl",
+        "sketchfabLink":"https://sketchfab.com/models/4790a72651e144fc9229ff4795442f74/embed"
     },
     {
         "artworkId":"artwork-western-58",
@@ -809,7 +923,9 @@
         "dimensions":"91.5 x 91.5 cm",
         "trend":"팝 아트",
         "school":"Pop Art",
-        "imgLink":"https://i.imgur.com/5BFrygC.png"
+        "imgLink":"https://i.imgur.com/5BFrygC.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w58.stl",
+        "sketchfabLink":"https://sketchfab.com/models/e98d4d99d1134c1d8c13d29110d3dc24/embed"
     },
     {
         "artworkId":"artwork-western-59",
@@ -823,7 +939,9 @@
         "dimensions":"200 x 200 cm",
         "trend":"옵 아트",
         "school":"Optical Art",
-        "imgLink":"https://i.imgur.com/mqw6Kpw.png"
+        "imgLink":"https://i.imgur.com/mqw6Kpw.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w59.stl",
+        "sketchfabLink":"https://sketchfab.com/models/d7e5ae00fb184574846a83092bb71e50/embed"
     },
     {
         "artworkId":"artwork-western-60",
@@ -837,7 +955,9 @@
         "dimensions":"304.8 x 609.6 cm",
         "trend":"미니멀 아트",
         "school":"Minimal Art",
-        "imgLink":"https://i.imgur.com/g3Z5tFk.png"
+        "imgLink":"https://i.imgur.com/g3Z5tFk.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w60.stl",
+        "sketchfabLink":"https://sketchfab.com/models/1f2793e90295432ab0b9f433dd18eaad/embed"
     },
     {
         "artworkId":"artwork-western-61",
@@ -851,7 +971,9 @@
         "dimensions":"217.3 × 217.3 cm",
         "trend":"미니멀 아트",
         "school":"Minimal Art",
-        "imgLink":"https://i.imgur.com/Ja9LV2i.png"
+        "imgLink":"https://i.imgur.com/Ja9LV2i.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w61.stl",
+        "sketchfabLink":"https://sketchfab.com/models/295b7f68a9d6477b942fa3b166849aa9/embed"
     },
     {
         "artworkId":"artwork-western-62",
@@ -865,7 +987,9 @@
         "dimensions":"-",
         "trend":"대지 미술",
         "school":"Land Art, Earthworks",
-        "imgLink":"https://i.imgur.com/FzkcZc0.png"
+        "imgLink":"https://i.imgur.com/FzkcZc0.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w62.stl",
+        "sketchfabLink":"https://sketchfab.com/models/8702d83439ef45d086228cb62654adc3/embed"
     },
     {
         "artworkId":"artwork-western-63",
@@ -879,6 +1003,8 @@
         "dimensions":"-",
         "trend":"극사실주의",
         "school":"Hyperrealism",
-        "imgLink":"https://i.imgur.com/MfQqlXy.png"
+        "imgLink":"https://i.imgur.com/MfQqlXy.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/western/w63.stl",
+        "sketchfabLink":"https://sketchfab.com/models/c1d5fa147ac94f8bb815eadd34a3ff28/embed"
     }
 ]

@@ -11,7 +11,9 @@
         "dimensions":"-",
         "trend":"구석기",
         "school":"Paleolithic",
-        "imgLink":"https://i.imgur.com/XvbKAjR.png"
+        "imgLink":"https://i.imgur.com/XvbKAjR.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e1.stl",
+        "sketchfabLink":"https://sketchfab.com/models/a7133c4c8d654cecb5d6f2b4f5e2e681/embed"
     },
     {
         "artworkId":"artwork-korean-2",
@@ -25,7 +27,9 @@
         "dimensions":"-",
         "trend":"구석기",
         "school":"Paleolithic",
-        "imgLink":"https://i.imgur.com/9IhqqLx.png"
+        "imgLink":"https://i.imgur.com/9IhqqLx.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e2.stl",
+        "sketchfabLink":"https://sketchfab.com/models/8d4e7b38466a430ebde1b89fdf717a08/embed"
     },
     {
         "artworkId":"artwork-korean-3",
@@ -39,7 +43,9 @@
         "dimensions":"-",
         "trend":"신석기",
         "school":"Neolithic",
-        "imgLink":"https://i.imgur.com/LXh5Fts.png"
+        "imgLink":"https://i.imgur.com/LXh5Fts.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e3.stl",
+        "sketchfabLink":"https://sketchfab.com/models/768835586561492e9aeb5b87113c4bf9/embed"
     },
     {
         "artworkId":"artwork-korean-4",
@@ -53,7 +59,9 @@
         "dimensions":"-",
         "trend":"신석기",
         "school":"Neolithic",
-        "imgLink":"https://i.imgur.com/nWHTloG.png"
+        "imgLink":"https://i.imgur.com/nWHTloG.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e4.stl",
+        "sketchfabLink":"https://sketchfab.com/models/159ef0d8c04c4aa4a65954e0d7e5f002/embed"
     },
     {
         "artworkId":"artwork-korean-5",
@@ -67,7 +75,9 @@
         "dimensions":"-",
         "trend":"청동기",
         "school":"Bronze Age",
-        "imgLink":"https://i.imgur.com/fo7rbAY.png"
+        "imgLink":"https://i.imgur.com/fo7rbAY.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e5.stl",
+        "sketchfabLink":"https://sketchfab.com/models/9f4e49b442a443e8b43403b9a0e31d35/embed"
     },
     {
         "artworkId":"artwork-korean-6",
@@ -81,7 +91,9 @@
         "dimensions":"-",
         "trend":"청동기",
         "school":"Bronze Age",
-        "imgLink":"https://i.imgur.com/HGEqjVU.png"
+        "imgLink":"https://i.imgur.com/HGEqjVU.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e6.stl",
+        "sketchfabLink":"https://sketchfab.com/models/9a2588117f174ee2988f8a8bfc215e3d/embed"
     },
     {
         "artworkId":"artwork-korean-7",
@@ -95,7 +107,9 @@
         "dimensions":"-",
         "trend":"청동기",
         "school":"Bronze Age",
-        "imgLink":"https://i.imgur.com/bFTcVjW.png"
+        "imgLink":"https://i.imgur.com/bFTcVjW.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e7.stl",
+        "sketchfabLink":"https://sketchfab.com/models/5284ffc7fda0438192033492d21efe9d/embed"
     },
     {
         "artworkId":"artwork-korean-8",
@@ -109,7 +123,9 @@
         "dimensions":"-",
         "trend":"고구려",
         "school":"Goguryeo(koguryo)",
-        "imgLink":"https://i.imgur.com/24pbtcm.png"
+        "imgLink":"https://i.imgur.com/24pbtcm.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e8.stl",
+        "sketchfabLink":"https://sketchfab.com/models/d4824b65dcb24451a79ac1dd6be81962/embed"
     },
     {
         "artworkId":"artwork-korean-9",
@@ -123,7 +139,9 @@
         "dimensions":"93.5㎝",
         "trend":"고구려",
         "school":"Goguryeo(koguryo)",
-        "imgLink":"https://i.imgur.com/SvMpacW.png"
+        "imgLink":"https://i.imgur.com/SvMpacW.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e9.stl",
+        "sketchfabLink":"https://sketchfab.com/models/230c683742bf4c889dfee61d590b9652/embed"
     },
     {
         "artworkId":"artwork-korean-10",
@@ -137,7 +155,9 @@
         "dimensions":"9.1㎝ x12.1㎝ x 16.2㎝",
         "trend":"고구려",
         "school":"Goguryeo(koguryo)",
-        "imgLink":"https://i.imgur.com/Jd9DHDi.png"
+        "imgLink":"https://i.imgur.com/Jd9DHDi.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e10.stl",
+        "sketchfabLink":"https://sketchfab.com/models/ead0c221152f4cf5b714eda8299c6a2a/embed"
     },
     {
         "artworkId":"artwork-korean-11",
@@ -151,7 +171,9 @@
         "dimensions":"14.5m x 12.5m,",
         "trend":"백제",
         "school":"Baekje",
-        "imgLink":"https://i.imgur.com/M94hyYq.png"
+        "imgLink":"https://i.imgur.com/M94hyYq.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e11.stl",
+        "sketchfabLink":"https://sketchfab.com/models/3a2d5d177754464ca218acbd3f439a43/embed"
     },
     {
         "artworkId":"artwork-korean-12",
@@ -165,7 +187,9 @@
         "dimensions":"29.2cm x 29.2cm",
         "trend":"백제",
         "school":"Baekje",
-        "imgLink":"https://i.imgur.com/T9y09uK.png"
+        "imgLink":"https://i.imgur.com/T9y09uK.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e12.stl",
+        "sketchfabLink":"https://sketchfab.com/models/b41353fbeea246529a3d45dfb72bbe48/embed"
     },
     {
         "artworkId":"artwork-korean-13",
@@ -179,7 +203,9 @@
         "dimensions":"61cm",
         "trend":"백제",
         "school":"Baekje",
-        "imgLink":"https://i.imgur.com/hVI50xK.png"
+        "imgLink":"https://i.imgur.com/hVI50xK.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e13.stl",
+        "sketchfabLink":"https://sketchfab.com/models/53976cf6e0eb4a53a6ee8fa14aab2a55/embed"
     },
     {
         "artworkId":"artwork-korean-14",
@@ -193,7 +219,9 @@
         "dimensions":"9.17m",
         "trend":"신라",
         "school":"Silla",
-        "imgLink":"https://i.imgur.com/pzNY1bs.png"
+        "imgLink":"https://i.imgur.com/pzNY1bs.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e14.stl",
+        "sketchfabLink":"https://sketchfab.com/models/6771a2e4fc3745b0b9e56c764fb17912/embed"
     },
     {
         "artworkId":"artwork-korean-15",
@@ -207,7 +235,9 @@
         "dimensions":"75㎝ x 53㎝",
         "trend":"신라",
         "school":"Silla",
-        "imgLink":"https://i.imgur.com/8RBlnc5.png"
+        "imgLink":"https://i.imgur.com/8RBlnc5.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e15.stl",
+        "sketchfabLink":"https://sketchfab.com/models/5fce9d422c104b0a84cc94a2d97a502e/embed"
     },
     {
         "artworkId":"artwork-korean-16",
@@ -221,7 +251,9 @@
         "dimensions":"23.4㎝ x 29.4㎝",
         "trend":"신라",
         "school":"Silla",
-        "imgLink":"https://i.imgur.com/iDYMGGD.png"
+        "imgLink":"https://i.imgur.com/iDYMGGD.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e16.stl",
+        "sketchfabLink":"https://sketchfab.com/models/6067cb3ebbf04e73a6ff69805416fcd9/embed"
     },
     {
         "artworkId":"artwork-korean-17",
@@ -235,7 +267,9 @@
         "dimensions":"30.7㎝ x 18.4㎝",
         "trend":"신라",
         "school":"Silla",
-        "imgLink":"https://i.imgur.com/qve6UB2.png"
+        "imgLink":"https://i.imgur.com/qve6UB2.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e17.stl",
+        "sketchfabLink":"https://sketchfab.com/models/5e28aba3e3f44a59bdeccc85bcdc3cb7/embed"
     },
     {
         "artworkId":"artwork-korean-18",
@@ -249,7 +283,9 @@
         "dimensions":"3.4m",
         "trend":"통일 신라",
         "school":"Unified Silla",
-        "imgLink":"https://i.imgur.com/j1x6DaL.png"
+        "imgLink":"https://i.imgur.com/j1x6DaL.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e18.stl",
+        "sketchfabLink":"https://sketchfab.com/models/eab8cd2e194149cc87fe615ab3f159b3/embed"
     },
     {
         "artworkId":"artwork-korean-19",
@@ -263,7 +299,9 @@
         "dimensions":"10.29m",
         "trend":"통일 신라",
         "school":"Unified Silla",
-        "imgLink":"https://i.imgur.com/RCLUDzZ.png"
+        "imgLink":"https://i.imgur.com/RCLUDzZ.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e19.stl",
+        "sketchfabLink":"https://sketchfab.com/models/41ee320c2979492794a88e5934f74f3b/embed"
     },
     {
         "artworkId":"artwork-korean-20",
@@ -277,7 +315,9 @@
         "dimensions":"3.66m",
         "trend":"통일 신라",
         "school":"Unified Silla",
-        "imgLink":"https://i.imgur.com/hHJGVet.png"
+        "imgLink":"https://i.imgur.com/hHJGVet.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e20.stl",
+        "sketchfabLink":"https://sketchfab.com/models/937f2519fbbe4606bd0f531aecc331bd/embed"
     },
     {
         "artworkId":"artwork-korean-21",
@@ -291,7 +331,9 @@
         "dimensions":"10.75m",
         "trend":"통일 신라",
         "school":"Unified Silla",
-        "imgLink":"https://i.imgur.com/HVgySxX.png"
+        "imgLink":"https://i.imgur.com/HVgySxX.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e21.stl",
+        "sketchfabLink":"https://sketchfab.com/models/115365bb48764072ab21ad032101c7d9/embed"
     },
     {
         "artworkId":"artwork-korean-22",
@@ -305,7 +347,9 @@
         "dimensions":"165.5 x 101.5㎝.",
         "trend":"고려",
         "school":"Goryeo",
-        "imgLink":"https://i.imgur.com/UwazRdZ.png"
+        "imgLink":"https://i.imgur.com/UwazRdZ.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e22.stl",
+        "sketchfabLink":"https://sketchfab.com/models/0d6dbd852ad2439088e265d14446f9f9/embed"
     },
     {
         "artworkId":"artwork-korean-23",
@@ -319,7 +363,9 @@
         "dimensions":"38.7㎝(h), 106.5㎝(w)",
         "trend":"조선 전기",
         "school":"Early Joseon period",
-        "imgLink":"https://i.imgur.com/6CzEkge.png"
+        "imgLink":"https://i.imgur.com/6CzEkge.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e23.stl",
+        "sketchfabLink":"https://sketchfab.com/models/2df381a31e5841d2969d173f2f47ce2c/embed"
     },
     {
         "artworkId":"artwork-korean-24",
@@ -333,7 +379,9 @@
         "dimensions":"23.4㎝(h), 15.7㎝(w)",
         "trend":"조선 전기",
         "school":"Early Joseon period",
-        "imgLink":"https://i.imgur.com/KAyUUgo.png"
+        "imgLink":"https://i.imgur.com/KAyUUgo.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e24.stl",
+        "sketchfabLink":"https://sketchfab.com/models/9cdb0ae557014a54ac4bc873df42fad1/embed"
     },
     {
         "artworkId":"artwork-korean-25",
@@ -347,7 +395,9 @@
         "dimensions":"32.8cm(h), 가로 28.0cm(w)",
         "trend":"조선 전기",
         "school":"Early Joseon period",
-        "imgLink":"https://i.imgur.com/7Oi4oPG.png"
+        "imgLink":"https://i.imgur.com/7Oi4oPG.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e25.stl",
+        "sketchfabLink":"https://sketchfab.com/models/da04ba7a5e1b4a46945690afca293c70/embed"
     },
     {
         "artworkId":"artwork-korean-26",
@@ -361,7 +411,9 @@
         "dimensions":"80 x 47 cm",
         "trend":"조선 중기",
         "school":"Middle Joseon period",
-        "imgLink":"https://i.imgur.com/cWvJQL7.png"
+        "imgLink":"https://i.imgur.com/cWvJQL7.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e26.stl",
+        "sketchfabLink":"https://sketchfab.com/models/4d69f4032b324e888e6c26ac14bb662a/embed"
     },
     {
         "artworkId":"artwork-korean-27",
@@ -375,7 +427,9 @@
         "dimensions":"57cm x 83cm",
         "trend":"조선 중기",
         "school":"Middle Joseon period",
-        "imgLink":"https://i.imgur.com/deIhYMN.png"
+        "imgLink":"https://i.imgur.com/deIhYMN.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e27.stl",
+        "sketchfabLink":"https://sketchfab.com/models/32220fc3e32d4ad58999b179ad1f4b09/embed"
     },
     {
         "artworkId":"artwork-korean-28",
@@ -389,7 +443,9 @@
         "dimensions":"148.8㎝(h), 69.8㎝(w)",
         "trend":"조선 중기",
         "school":"Middle Joseon period",
-        "imgLink":"https://i.imgur.com/VbydyOX.png"
+        "imgLink":"https://i.imgur.com/VbydyOX.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e28.stl",
+        "sketchfabLink":"https://sketchfab.com/models/2305ac1935d34f7b8532669060960f6f/embed"
     },
     {
         "artworkId":"artwork-korean-29",
@@ -403,7 +459,9 @@
         "dimensions":"38.5㎝(h), 20.5㎝(w)",
         "trend":"조선 중기",
         "school":"Middle Joseon period",
-        "imgLink":"https://i.imgur.com/QZhs56c.png"
+        "imgLink":"https://i.imgur.com/QZhs56c.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e29.stl",
+        "sketchfabLink":"https://sketchfab.com/models/f389c377ada144c9a5973995ec382216/embed"
     },
     {
         "artworkId":"artwork-korean-30",
@@ -417,7 +475,9 @@
         "dimensions":"53.4㎝(w), 32.8㎝(h)",
         "trend":"조선 후기",
         "school":"Late Joseon period",
-        "imgLink":"https://i.imgur.com/1mMQjU8.png"
+        "imgLink":"https://i.imgur.com/1mMQjU8.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e30.stl",
+        "sketchfabLink":"https://sketchfab.com/models/024e01eaf34c4b9ca2fec81980656496/embed"
     },
     {
         "artworkId":"artwork-korean-31",
@@ -431,7 +491,9 @@
         "dimensions":" 22.4×27.0cm",
         "trend":"조선 후기",
         "school":"Late Joseon period",
-        "imgLink":"https://i.imgur.com/ZPE53B0.png"
+        "imgLink":"https://i.imgur.com/ZPE53B0.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e31.stl",
+        "sketchfabLink":"https://sketchfab.com/models/3455d89e85a54548b4f6aec9814b076c/embed"
     },
     {
         "artworkId":"artwork-korean-32",
@@ -445,7 +507,9 @@
         "dimensions":" 79.2 × 138.2cm",
         "trend":"조선 후기",
         "school":"Late Joseon period",
-        "imgLink":"https://i.imgur.com/k1D9wFi.png"
+        "imgLink":"https://i.imgur.com/k1D9wFi.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e32.stl",
+        "sketchfabLink":"https://sketchfab.com/models/edc74a6bd5eb400391e8a61ae4f5b758/embed"
     },
     {
         "artworkId":"artwork-korean-33",
@@ -459,7 +523,9 @@
         "dimensions":"114.0x45.5cm",
         "trend":"조선 후기",
         "school":"Late Joseon period",
-        "imgLink":"https://i.imgur.com/dLAfNMl.png"
+        "imgLink":"https://i.imgur.com/dLAfNMl.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e33.stl",
+        "sketchfabLink":"https://sketchfab.com/models/e8bf346852214fc09ca330d576d3fd69/embed"
     },
     {
         "artworkId":"artwork-korean-34",
@@ -473,7 +539,9 @@
         "dimensions":" 69.2㎝(w) x 23㎝(h)",
         "trend":"조선 후기",
         "school":"Late Joseon period",
-        "imgLink":"https://i.imgur.com/m8e5pj9.png"
+        "imgLink":"https://i.imgur.com/m8e5pj9.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e34.stl",
+        "sketchfabLink":"https://sketchfab.com/models/8424a51ea28645f5936832f7882f04e3/embed"
     },
     {
         "artworkId":"artwork-korean-35",
@@ -487,7 +555,9 @@
         "dimensions":"119.7x47.9cm",
         "trend":"조선 말기",
         "school":"Late Joseon period",
-        "imgLink":"https://i.imgur.com/7b7mOEI.png"
+        "imgLink":"https://i.imgur.com/7b7mOEI.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e35.stl",
+        "sketchfabLink":"https://sketchfab.com/models/a357f92e800548a59b4d200221584eed/embed"
     },
     {
         "artworkId":"artwork-korean-36",
@@ -501,7 +571,9 @@
         "dimensions":"135.5㎝(h), 55.3㎝(w)",
         "trend":"조선 말기",
         "school":"Late Joseon period",
-        "imgLink":"https://i.imgur.com/7tAGZuG.png"
+        "imgLink":"https://i.imgur.com/7tAGZuG.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e36.stl",
+        "sketchfabLink":"https://sketchfab.com/models/2f9d788cf2454311811700db38502621/embed"
     },
     {
         "artworkId":"artwork-korean-37",
@@ -515,7 +587,9 @@
         "dimensions":"153.0×352.0cm",
         "trend":"조선 말기",
         "school":"Late Joseon period",
-        "imgLink":"https://i.imgur.com/F5mZZVY.png"
+        "imgLink":"https://i.imgur.com/F5mZZVY.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e37.stl",
+        "sketchfabLink":"https://sketchfab.com/models/2270edd7e1bf40df9a8aafbe044ec25a/embed"
     },
     {
         "artworkId":"artwork-korean-38",
@@ -529,7 +603,9 @@
         "dimensions":"193×129",
         "trend":"근 현대 ",
         "school":"Modern",
-        "imgLink":"https://i.imgur.com/OFGxvuy.png"
+        "imgLink":"https://i.imgur.com/OFGxvuy.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e38.stl",
+        "sketchfabLink":"https://sketchfab.com/models/e585b0efade44b87987ff0add6e9b76e/embed"
     },
     {
         "artworkId":"artwork-korean-39",
@@ -543,7 +619,9 @@
         "dimensions":"32.5 x 49.8 cm",
         "trend":"근 현대 ",
         "school":"Modern",
-        "imgLink":"https://i.imgur.com/9zuglup.png"
+        "imgLink":"https://i.imgur.com/9zuglup.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e39.stl",
+        "sketchfabLink":"https://sketchfab.com/models/3b1ef91d71ce424cb08985ee01d30639/embed"
     },
     {
         "artworkId":"artwork-korean-40",
@@ -557,7 +635,9 @@
         "dimensions":"35×55",
         "trend":"근 현대 ",
         "school":"Modern",
-        "imgLink":"https://i.imgur.com/knjWPnw.png"
+        "imgLink":"https://i.imgur.com/knjWPnw.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e40.stl",
+        "sketchfabLink":"https://sketchfab.com/models/c2142dcdddc24fdc832e3138e4079240/embed"
     },
     {
         "artworkId":"artwork-korean-41",
@@ -571,7 +651,9 @@
         "dimensions":"80×65cm",
         "trend":"근 현대 ",
         "school":"Modern",
-        "imgLink":"https://i.imgur.com/HJnB3EC.png"
+        "imgLink":"https://i.imgur.com/HJnB3EC.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e41.stl",
+        "sketchfabLink":"https://sketchfab.com/models/bb2fa9c542024dcbbc980653533a99bd/embed"
     },
     {
         "artworkId":"artwork-korean-42",
@@ -585,7 +667,9 @@
         "dimensions":"152×182",
         "trend":"근 현대 ",
         "school":"Modern",
-        "imgLink":"https://i.imgur.com/Frqb6Wy.png"
+        "imgLink":"https://i.imgur.com/Frqb6Wy.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e42.stl",
+        "sketchfabLink":"https://sketchfab.com/models/c8aa8221f62f4b4e870022fafe58f27c/embed"
     },
     {
         "artworkId":"artwork-korean-43",
@@ -599,7 +683,9 @@
         "dimensions":"61×46 cm",
         "trend":"근 현대 ",
         "school":"Modern",
-        "imgLink":"https://i.imgur.com/NTdbpUO.png"
+        "imgLink":"https://i.imgur.com/NTdbpUO.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e43.stl",
+        "sketchfabLink":"https://sketchfab.com/models/aef4277463844bf7a4023c2c71c3ab35/embed"
     },
     {
         "artworkId":"artwork-korean-44",
@@ -613,6 +699,8 @@
         "dimensions":"121㎝ x 264㎝",
         "trend":"근 현대 ",
         "school":"Modern",
-        "imgLink":"https://i.imgur.com/mgUPpQY.png"
+        "imgLink":"https://i.imgur.com/mgUPpQY.png",
+        "fileLink":"https://touchartarchive.s3.ap-northeast-2.amazonaws.com/korean/e44.stl",
+        "sketchfabLink":"https://sketchfab.com/models/02dc1baed3b64628b37d9bd6f37d17ef/embed"
     }
 ]

@@ -7,6 +7,7 @@ import BackButton from "../components/BackButton";
 import { Region, ArtData } from '../variables';
 
 
+
 type ArchiveProps = {
     region : Region;
     artworks : Array<ArtData>;
@@ -18,6 +19,7 @@ const Archive : React.FC<ArchiveProps> = ({ region, artworks }) => {
     const tags : Array<string> = artworks.map((x) => x.trend)
     const tagsSet : Array<string> = tags.filter((x, i) => tags?.findIndex(tag => tag === x) === i)
 
+    
     const element : JSX.Element = (
     <>
         <BackButton />

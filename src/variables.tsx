@@ -28,4 +28,6 @@ export type ArtData = {
     trend: string;
     school: string;
     imgLink : string;
+    fileLink : string;
+    sketchfabLink : string;
 }

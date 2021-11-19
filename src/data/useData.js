@@ -11,6 +11,7 @@ export function getData(regionId) {
 }
 
 export function getArtworkData(artworkId) {
+    // error 처리 하기
     return [...WesternData, ...KoreanData].find( 
         artwork => artwork.artworkId === artworkId 
     );
