@@ -2,19 +2,14 @@
     position : relative;
     
     &__container {
-      width : 1000px;
+        width : 1000px;
   
-      position : absolute;
-      left : 50%;
-      top : 200px;
-      transform : translateX(-50%);
-  
-      //temporary setting
-      //border : 1px solid $light-gray;
-  
-      .title { 
-        margin-bottom : 70px;
-      }
+        margin : 0 auto;
+        margin-top : 200px;
+
+        .title { 
+            margin-bottom : 70px;
+        }
   
       .tags {
         display : flex;

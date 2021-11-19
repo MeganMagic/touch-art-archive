@@ -28,6 +28,7 @@ body {
   // global container
   .container {
     width : 1440px;
+    min-width : 1440px;
     height : 100vh;
     min-height : 768px;
     margin : 0 auto;
@@ -51,11 +52,15 @@ body {
     display: flex;
   
     &-jc-c {
-      justify-content: center;
+        justify-content: center;
+    }
+
+    &-jc-sb {
+        justify-content: space-between;
     }
   
     &-ai-c{
-      align-items: center;
+        align-items: center;
     }
   }
   
