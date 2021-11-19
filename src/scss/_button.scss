@@ -1,8 +1,8 @@
 button {
     cursor: pointer;
-  }
+}
   
-  button.button__moveToTop {
+button.button__moveToTop {
     width: 120px;
     height : 120px;
     border-radius: 120px;
@@ -22,9 +22,9 @@ button {
         animation: up-and-down 1s ease-in-out infinite;
       }
     }
-  }
+}
   
-  button.button__back {
+button.button__back {
     width : 120px;
     height : 120px;
     border-radius : 120px;
@@ -44,37 +44,55 @@ button {
     &:hover {
       background-color : rgba($light-gray, 0.1);
   
-      .arrowContainer {
-        animation : left-and-right 1s ease-in-out infinite;
-      }
+        .arrowContainer {
+            animation : left-and-right 1s ease-in-out infinite;
+        }
     }
-  }
+}
 
-  button.button__language {
-      width : 50px;
-      height: 40px;
-      background-color: $light-gray;
-      &:hover {
-          background-color: $orange;
-      }
-  }
+button.button__language {
+    width : 50px;
+    height: 40px;
+    background-color: $light-gray;
+    &:hover {
+        background-color: $orange;
+    }
+}
+
+button.button__download {
+    width: 120px;
+    height: 120px;
+    background-color: #ffffff;
+    border-radius: 50%;
+
+    color : $orange;
+    font-size: 18px;
+    font-weight: 700;
+
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        background-color: $orange;
+        color : #ffffff;
+    }
+}
   
-  @keyframes up-and-down {
+@keyframes up-and-down {
     from {
-      transform: translateY(0px)
+        transform: translateY(0px)
     }
     45% {
-      transform: translateY(-5px)
+        transform: translateY(-5px)
     }
     55% {
-      transform: translateY(-5px)
+        transform: translateY(-5px)
     }
     to {
-      transform: translateY(0px)
+        transform: translateY(0px)
     }
-  }
+}
   
-  @keyframes left-and-right {
+@keyframes left-and-right {
     from {
       transform: translateX(0px)
     }

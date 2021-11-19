@@ -1,7 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 
-import Logo from "../components/Logo";
 import BackButton from "../components/BackButton";
 
 import { getArtworkData } from "../data/useData";
@@ -12,20 +11,32 @@ const Artwork = () => {
     let params = useParams();
     const artworkId = params.artworkId;
     const data = getArtworkData(artworkId);
+    console.log(data);
 
     const element : JSX.Element = 
-        <div className="Artwork">
-            <BackButton />
+    <>
+        <BackButton />
 
-            <div className="Artwork__container">
+        <div className="Artwork__container">
 
-            <Sketchfab embedLink={embedLink} />
-            </div>
+            <Sketchfab embedLink={data ? data.sketchfabLink : ""} />
 
-            <div>
-                <a href="https://touch-archive.s3.ap-northeast-2.amazonaws.com/w1.stl" download>download</a>
+            <div className="flex flex-ai-c flex-jc-sb">
+                <div className="detail">
+                    <DetailRow item="Title" value={data?.title_ko} />
+                    <DetailRow item="Artist" value={data?.artist_ko} />
+                    <DetailRow item="Year" value={data?.year} />
+                    <DetailRow item="Material" value={data?.material_ko} />
+                    <DetailRow item="Dimensions" value={data?.dimensions} />
+                    <DetailRow item="School" value={data?.school} />
+                </div>
+
+                <a href={data?.fileLink} download>
+                    <button className="button__download">Download</button>
+                </a>
             </div>
         </div>
+    </>
     return element;
 }
 
@@ -46,3 +57,24 @@ const Sketchfab : React.FC<SketchfabProps> = ({ embedLink }) => {
     </div>
     );
 }
+
+
+type DetailRowProps = {
+    item : string | undefined ;
+    value : string | undefined;
+}
+
+const DetailRow: React.FC<DetailRowProps> = ({ item, value}) => {
+    return (
+        <div className="detail__row flex" >
+            <div className="item">{item}</div>
+            <div className="value">{value}</div>
+        </div>
+    )
+}
+
+const download = (
+<div>
+    <a href="https://touch-archive.s3.ap-northeast-2.amazonaws.com/w1.stl" download>download</a>
+</div>
+);
