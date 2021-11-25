@@ -1,21 +1,18 @@
 import { useSelector, useDispatch } from 'react-redux';
-import { LanguageState, selectEnglish, selectKorean } from '../language';
+import { LanguageState, LANG_KO, selectEnglish, selectKorean } from '../language';
 
 const LanguageButton = () => {
-    const selector = useSelector((state : LanguageState) => state.language)
+    const language = useSelector((state : LanguageState) => state.language)
     const dispatch = useDispatch()
-    const element = (
-    <div className="LanguageButton">
-        <div>language</div>
-        <button className="button__language" onClick={() => dispatch(selectKorean())}>
-            KO
+
+    return language === LANG_KO ? 
+        <button className="LanguageButton" onClick={() => dispatch(selectEnglish())}>
+            <div>Eng</div>
+        </button> : 
+        <button className="LanguageButton" onClick={() => dispatch(selectKorean())}>
+            <div>한글</div>
         </button>
-        <button className="button__language" onClick={() => dispatch(selectEnglish())}>
-            EN
-        </button>
-    </div>
-    );
-    return element
+    ;
 }
 
 export default LanguageButton;

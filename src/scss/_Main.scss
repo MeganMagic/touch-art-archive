@@ -1,8 +1,8 @@
 .Main {
     position : relative;
-  }
+}
   
-  .Main__archive {
+.Main__archive {
     width : 900px;
     height : 650px;
   
@@ -14,69 +14,64 @@
     border-radius: 50%;
   
     .title {
-      position : absolute;
-      left : 50%;
-      transform: translate(-50%, -50%);
-  
-      padding : 0 10px;
-      background-color : $dark-gray;
+        position : absolute;
+        left : 50%;
+        transform: translate(-50%, -50%);
+    
+        padding : 0 10px;
+        background-color : $dark-gray;
     }
   
     .archiveBtn {
-      position : absolute;
-      top : 50%;
-      transform: translateY(-50%);
+        position : absolute;
+        top : 50%;
+        transform: translateY(-50%);
   
-      width : 350px;
-      height : 350px;
-      border : 1px solid $light-gray;
-      border-radius: 50%;
-  
-      line-height: 350px;
-      text-align: center;
-  
-      cursor: pointer;
-      transition : all 0.3s ease;
-  
-      &.korean {
-        left : 50px;
-      }
-      &.western {
-        right : 50px;
-      }
-  
-      &:hover {
-        background-color: $orange;
-        color : $white;
-        border-color : $orange;
-      }
+        width : 350px;
+        height : 350px;
+    
+        &.korean {
+            left : 50px;
+        }
+        &.western {
+            right : 50px;
+        }
     }
-  }
+}
   
   
-  .Main__about {
+.Main__about {
     width : 250px;
     height : 250px;
   
     position : absolute;
-    top : calc(200px + 325px );
-    right : 100px;
-    transform: translateY(-50%);
+    top : 358px;
+    right : 95px;
+}
+
+.Main__question {
+    position : absolute;
+    top : 657px;
+    right : 160px;
+
+    width: 118px;
+    height: 118px;
+}
   
+.Main__button {
+    cursor: pointer;
     border : 1px solid $light-gray;
     border-radius: 50%;
-  
-    line-height: 250px;
-    text-align: center;
-    
-    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     transition : all 0.3s ease;
-    
+
     &:hover {
-      background-color: $orange;
-      color : $white;
-      border-color : $orange;
+        background-color: $orange;
+        color : $white;
+        border-color : $orange;
     }
-  }
-  
-  
+}

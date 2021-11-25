@@ -110,7 +110,11 @@ button.button__download {
 .LanguageButton {
     position: absolute;
     right : 320px;
-    top : 60px;
+    top : 90px;
     z-index: 9;
+
+    background-color: transparent;
     color : $light-gray;
+    font-size: 25px;
+    font-weight: 400;
 }

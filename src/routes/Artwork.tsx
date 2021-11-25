@@ -1,5 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+import { useSelector } from 'react-redux';
+import { LanguageState, LANG_KO } from '../language'
 
 import BackButton from "../components/BackButton";
 
@@ -11,7 +13,6 @@ const Artwork = () => {
     let params = useParams();
     const artworkId = params.artworkId;
     const data = getArtworkData(artworkId);
-    console.log(data);
 
     const element : JSX.Element = 
     <>
@@ -23,12 +24,30 @@ const Artwork = () => {
 
             <div className="flex flex-ai-c flex-jc-sb">
                 <div className="detail">
-                    <DetailRow item="Title" value={data?.title_ko} />
-                    <DetailRow item="Artist" value={data?.artist_ko} />
-                    <DetailRow item="Year" value={data?.year} />
-                    <DetailRow item="Material" value={data?.material_ko} />
-                    <DetailRow item="Dimensions" value={data?.dimensions} />
-                    <DetailRow item="School" value={data?.school} />
+                    <DetailRow 
+                        item={{en: "Title", ko: '제목'}} 
+                        value={{en : data?.title_en, ko : data?.title_ko}}
+                    />
+                    <DetailRow 
+                        item={{en: "Artist", ko: '작가'}} 
+                        value={{en : data?.artist_en, ko : data?.artist_ko}}
+                    />
+                    <DetailRow 
+                        item={{en : "Year", ko: "제작년도" }}
+                        value={{en : data?.year, ko : data?.year}}
+                    />
+                    <DetailRow 
+                        item={{en : "Material",  ko : "재료" }}
+                        value={{en : data?.material_en, ko : data?.material_ko}}
+                    />
+                    <DetailRow 
+                        item={{en : "Dimensions", ko : "크기" }}
+                        value={{en : data?.dimensions, ko : data?.dimensions}}
+                    />
+                    <DetailRow 
+                        item={{en : "School", ko : "사조"}}
+                        value={{en : data?.school, ko : data?.school}}
+                    />
                 </div>
 
                 <a href={data?.fileLink} download>
@@ -60,15 +79,33 @@ const Sketchfab : React.FC<SketchfabProps> = ({ embedLink }) => {
 
 
 type DetailRowProps = {
-    item : string | undefined ;
-    value : string | undefined;
+    item : {
+        en : string,
+        ko : string
+    };
+    value : {
+        en : string | undefined,
+        ko : string | undefined
+    };
 }
 
-const DetailRow: React.FC<DetailRowProps> = ({ item, value}) => {
+const DetailRow: React.FC<DetailRowProps> = ({ item, value }) => {
+    const language = useSelector((state: LanguageState) => state.language);
+
     return (
         <div className="detail__row flex" >
-            <div className="item">{item}</div>
-            <div className="value">{value}</div>
+            <div className="item">
+                {
+                    language === LANG_KO ?
+                    item.ko : item.en
+                }
+            </div>
+            <div className="value">
+                {
+                    language === LANG_KO ?
+                    value.ko : value.en
+                }
+            </div>
         </div>
     )
 }
