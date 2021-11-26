@@ -4,7 +4,6 @@ import { LanguageState, LANG_KO } from '../language'
 
 import Figure from "../components/Figure";
 import MoveTopButton from "../components/MoveTopButton";
-import BackButton from "../components/BackButton";
 
 import { Region, ArtData } from '../variables';
 
@@ -25,7 +24,6 @@ const Archive : React.FC<ArchiveProps> = ({ region, artworks }) => {
     
     const element : JSX.Element = (
     <>
-        <BackButton />
         <MoveTopButton />
   
         <div className="Archive__container">

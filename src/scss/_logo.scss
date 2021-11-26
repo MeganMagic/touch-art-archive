@@ -1,24 +1,25 @@
 .Logo {
     position : absolute;
-    top : 70px;
-    right : 60px;
+    top : 50%;
+    right : 20px;
+    transform: translateY(-50%);
   
     display: flex;
   
     .logo-shape {
-      display: flex;
-  
-      .item {
-        width : 57px;
-        height : 70px;
-        background-color: $light-gray;
-        border-radius : 50px 50px 0 0 ;
-      
-        &:first-child {
-          margin-right : 2px;
-          border-radius : 0 0 50px 50px;
+        display: flex;
+    
+        .item {
+            width : 57px;
+            height : 70px;
+            background-color: $light-gray;
+            border-radius : 50px 50px 0 0 ;
+        
+            &:first-child {
+            margin-right : 2px;
+            border-radius : 0 0 50px 50px;
+            }
         }
-      }
     }
   
     .logo-title {
