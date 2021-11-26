@@ -1,5 +1,5 @@
 import React from 'react';
-import { Outlet } from 'react-router';
+import { Outlet, useLocation } from 'react-router';
 import LanguageButton from './components/LanguageButton';
 import Logo from './components/Logo';
 import BackButton from "./components/BackButton";
@@ -7,13 +7,28 @@ import BackButton from "./components/BackButton";
 import './scss/styles.scss'
 
 const App = () => {
+    const location = useLocation()
+
     return (
     <div className="container">
-        <header className="header-global">
-            <Logo />
-            <LanguageButton />
-            <BackButton />
-        </header>
+        {
+            location.pathname && location.pathname === '/about' ?
+            <header className="header-global">
+                <BackButton />
+            </header>
+            :
+            location.pathname && location.pathname === '/' ?
+            <header className="header-global">
+                <Logo />
+                <LanguageButton />
+            </header>
+            :
+            <header className="header-global">
+                <Logo />
+                <LanguageButton />
+                <BackButton />
+            </header>
+        }
         <Outlet />
     </div>
     );

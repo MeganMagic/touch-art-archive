@@ -40,14 +40,16 @@ const Main : React.FC = () => {
             </div>
 
             <div className="Main__description">
-                <div className="about Main__button" >
-                    <div className="font-global">
-                        {
-                            language === LANG_KO ?
-                            '안녕하세요' : 'About'
-                        }
+                <Link to="/about">
+                    <div className="about Main__button" >
+                        <div className="font-global">
+                            {
+                                language === LANG_KO ?
+                                '안녕하세요' : 'About'
+                            }
+                        </div>
                     </div>
-                </div>
+                </Link>
 
                 <div className="question Main__button">
                     <div className="font-global">

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { useSelector } from 'react-redux';
-import { LanguageState, LANG_KO } from '../language'
+
 
 import Figure from "../components/Figure";
 import MoveTopButton from "../components/MoveTopButton";
@@ -15,7 +14,6 @@ type ArchiveProps = {
 }
 
 const Archive : React.FC<ArchiveProps> = ({ region, artworks }) => {
-    const language = useSelector((state: LanguageState) => state.language);
 
     const [ tagIndex, setTagIndex ] = useState<number>(-1)
     const tags : Array<string> = artworks.map((x) => x.trend)

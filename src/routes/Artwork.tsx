@@ -16,8 +16,6 @@ const Artwork = () => {
 
     const element : JSX.Element = 
     <>
-        <BackButton />
-
         <div className="Artwork__container">
 
             <Sketchfab embedLink={data ? data.sketchfabLink : ""} />

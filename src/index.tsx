@@ -17,6 +17,7 @@ import PageNotFound from './routes/PageNotFound';
 
 import { getData } from './data/useData';
 import { KOREAN, WESTERN, RegionWestern, RegionKorean } from './variables';
+import About from './routes/About';
 
 ReactDOM.render(
     <Provider store={languageStore}>
@@ -31,7 +32,7 @@ ReactDOM.render(
                     </Route>
                     
                     <Route path="artwork/:artworkId" element={<Artwork />} />
-
+                    <Route path="about" element={<About />} />
                 </Route>
 
                 <Route path="*" element={<PageNotFound />} />
