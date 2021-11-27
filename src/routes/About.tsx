@@ -1,4 +1,6 @@
 import { useSelector } from 'react-redux';
+
+import MoveTopButton from '../components/MoveTopButton';
 import Logo from '../components/Logo';
 import { LanguageState, LanguageType, LANG_KO } from '../language'
 
@@ -11,6 +13,11 @@ const About = () => {
         <Slide2 language={language} />
         <Slide3 language={language} />
         <Slide4 language={language} />
+
+        <div className="About__controller">
+            <button className="top"></button>
+            <button className="bottom"></button>
+        </div>
     </div>;
 
     return element;
@@ -64,6 +71,7 @@ const Slide2 : React.FC<SlideProps> = ({ language }) => {
         }
         </div>
 
+        <div className="h-100p flex flex-ai-c">
         <div className="content flex flex-ai-c">
             <div className="col col-1 flex flex-ai-c" style={{fontSize : "22px", lineHeight:"31px", fontWeight: 700}}>
             {
@@ -85,20 +93,21 @@ const Slide2 : React.FC<SlideProps> = ({ language }) => {
                     <img className="emoji" src={require('../data/about_2_1.png').default} />
 
                     <div>
-                        <div>
                         {
                             language === LANG_KO ? 
-                            "“저와 같은 전맹의 경우, 미술시간에 미술사를\n배울 때 회화 작품을 감상할 수 있는 방법이 없어 \n항상 고역이었습니다.”" :
-                            "“For blinds like me, It felt like torture as we have\nno idea how to feel art works in art classes.”"
+                            <p>
+                                “저와 같은 <em>전맹</em>의 경우, <em>미술시간</em>에 미술사를<br/>배울 때 <em>회화 작품</em>을 <em>감상</em>할 수 있는 방법이 없어<br/>항상 고역이었습니다.”
+                            </p>
+                            :
+                            <p>
+                                “For <em>blinds</em> like me, It felt like torture as we have<br/>no idea how to <em>feel art works</em> in <em>art classes</em>.”
+                            </p>
                         }
-                        </div>
-                        <div style={{fontSize: "11px", marginTop: '8px'}}>
                         {
                             language === LANG_KO ?
-                            "[맹학교 졸업생 A씨와의 인터뷰 중]":
-                            "[Interviewing blind school graduated student A]"
+                            <p className="caption">[맹학교 졸업생 A씨와의 인터뷰 중]</p>:
+                            <p className="caption">[Interviewing blind school graduated student A]</p>
                         }
-                        </div>
                     </div>
                 </div>
 
@@ -106,20 +115,23 @@ const Slide2 : React.FC<SlideProps> = ({ language }) => {
                     <img className="emoji" src={require('../data/about_2_2.png').default} />
 
                     <div>
-                        <div>
                         {
                             language === LANG_KO ? 
-                            "“미술 감상시간에 3D프린터를 활용하고 싶어도\n프린팅 가능한 파일 대부분이 영어 자료였으며,\n서양 조각에 집중되어 있어 불편함이 있었습니다.”" :
-                            "“Though we want to use 3D printings in art classes, most of the printable files are english and focused only on western sculptures.”"
+                            <p>
+                                “미술 감상시간에 <em>3D프린터</em>를 활용하고 싶어도<br/>프린팅 가능한 파일 대부분이 영어 자료였으며,<br/>서양 조각에 집중되어 있어 <em>불편함</em>이 있었습니다.”
+                            </p> 
+                            :
+                            <p>
+                                “Though we want to use <em>3D printings</em> in art<br/>classes, most of the printable files are english<br/>and focused only on western sculptures.”
+                            </p>
                         }
-                        </div>
-                        <div style={{fontSize: "11px", marginTop: '8px'}}>
+
                         {
                             language === LANG_KO ?
-                            "[맹학교 교사 B선생님과의 인터뷰 중]":
-                            "[Interviewing blind schol teacher B]"
+                            <p className="caption">[맹학교 교사 B선생님과의 인터뷰 중]</p>
+                            :
+                            <p className="caption">[Interviewing blind schol teacher B]</p>
                         }
-                        </div>
                     </div>
                 </div>
 
@@ -127,24 +139,26 @@ const Slide2 : React.FC<SlideProps> = ({ language }) => {
                     <img className="emoji" src={require('../data/about_2_3.png').default} />
 
                     <div>
-                        <div>
                         {
                             language === LANG_KO ? 
-                            "“교과서를 활용하기는 어렵죠. 시각장애인을\n위해 미술 교과서가 따로 제작되지 않으니까요.”" :
-                            "“It is hard to use textbooks as there is no art\ntextbooks especially made for blinds.”"
+                            <p>
+                                “교과서를 활용하기는 어렵죠. <em>시각장애인</em>을<br/>위해 <em>미술 교과서</em>가 따로 <em>제작되지 않으니까요</em>.”
+                            </p>
+                            :
+                            <p>
+                                “It is hard to use <em>textbooks</em> as there is no art\ntextbooks especially made for <em>blinds</em>.”
+                            </p>
                         }
-                        </div>
-                        <div style={{fontSize: "11px", marginTop: '8px'}}>
                         {
                             language === LANG_KO ?
-                            "[맹학교 교사 C선생님과의 인터뷰 중]":
-                            "[Interviewing blind schol teacher C]"
+                            <p className="caption">[맹학교 교사 C선생님과의 인터뷰 중]</p>:
+                            <p className="caption">[Interviewing blind schol teacher C]</p>
                         }
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     );
 }
@@ -159,7 +173,7 @@ const Slide3 : React.FC<SlideProps> = ({language}) => {
                 "And how are these 3D files made?"
             }
             </div> 
-            <div className="title" style={{top: '160px', fontSize: "28px", fontWeight: 400}}>
+            <div className="title sub">
             {
                 language === LANG_KO ?
                 "다음 세 절차를 거쳐 제작됩니다." :
@@ -189,38 +203,42 @@ const Slide4 : React.FC<SlideProps> = ({ language }) => {
                 <div>”</div>
             </div>
 
-            <div className="quotation" >
             {
                 language === LANG_KO ?
-                "제가 그림을 봤다고 말할 수는 없겠지만\n한 가지 확실한 것은, 이걸 만지며\n이 그림에 대한 질문이 계속 떠오른다는 거에요" :
-                "I can't say I literarilly saw the picture. But\none thing for sure is that I keep questioning\nmyself about the picture as I touch it."
+                <p className="quotation">
+                    제가 그림을 봤다고 말할 수는 없겠지만<br/>한 가지 확실한 것은, 이걸 만지며<br/>이 그림에 대한 <em>질문</em>이 계속 떠오른다는 거에요
+                </p>
+                :
+                <p className="quotation">
+                    I can't say I literarilly saw the picture. But<br/>one thing for sure is that I keep <em>questioning</em><br/>myself about the picture as I touch it.
+                </p>
             }
-            </div>
 
-            <div className="quotationRef">
             {
                 language === LANG_KO ?
-                "[맹학교 졸업생 A씨와의 프로토타입 테스팅 중]" : "[Mr.A Graduate of school for the blind prototype testing]"
+                <p className="caption">[맹학교 졸업생 A씨와의 프로토타입 테스팅 중]</p> 
+                : 
+                <p className="caption">[Mr.A Graduate of school for the blind prototype testing]</p>
             }
-            </div>
         </div>
 
-        <div style={{width: "220px", height: "1px", backgroundColor : "#FFFFFF", marginTop : "93px", marginBottom: "80px"}}>
-        </div>
+        <div className="divider"></div>
 
-        <div>
-            <div style={{color : "#EFEFEF", textAlign:"center", marginBottom: "20px"}}>
+        <div style={{fontSize : "22px", lineHeight : "31px", color : "#FFFFFF", fontWeight: 300}}>
+            <div style={{textAlign:"center", marginBottom: "20px", fontWeight: 600}}>
             {
                 language === LANG_KO ? '문의' : "Contact"
             }
             </div>
 
-            <div className="flex" style={{color:"#EFEFEF", lineHeight:"30px"}}>
-                <div style={{marginRight : "20px"}}>Mail<br/>Tel</div>
+            <div className="flex">
+                <div style={{marginRight : "40px", textAlign: "right"}}>Mail<br/>Tel</div>
                 <div>seasoningsijoon@gmail.com<br/>01041163426</div>
             </div>
 
         </div>
+
+        <MoveTopButton />
 
     </div>
     );

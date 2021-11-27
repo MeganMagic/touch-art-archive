@@ -13,34 +13,50 @@
         min-height: 600px;
 
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
 
         position: relative;
+        border-bottom: 1px white solid;
 
         .title {
-            position : absolute;
-            top : 100px;
-            width: 100%;
+            position : relative;
+            margin-top : 120px;
 
             color : $light-gray;
             font-size: 34px;
             font-weight: 600;
             text-align: center;
-            // margin-bottom: ;
+
+            &.sub {
+                margin-top : 10px;
+                font-size: 28px;
+                font-weight: 400;
+            }
         }
         .content {
             color : $light-gray;
-            .em {
+            height: 100%;
+
+            p {
+                font-size : 16px;
+                color : #EFEFEF;
+                font-weight: 400;
+            }
+            em {
                 font-weight: 700;
                 color : $orange;
+                font-style: normal;
+            }
+            .caption{
+                font-size: 11px;
             }
         }
     }
 }
 #slide-1{
     .content {
-        margin-top : 100px;
         .Logo {
             position: relative;
             top : 0%;
@@ -75,7 +91,6 @@
     .content {
         width: 100%;
         height : 550px;
-        margin-top : 100px;
         .col {
             height : 100%;
             white-space: pre-line;
@@ -108,7 +123,6 @@
     .content {
         height : 100%;
         img {
-            margin-top : 100px;
             width : 100%;
         }
     }
@@ -116,28 +130,50 @@
 
 #slide-4 {
     flex-direction: column;
-    height : auto;
-    margin-bottom : 120px;
+    justify-content: flex-start;
+    height : 1360px;
+    .content {
+        height : auto;
+    }
+
+    .title-img{
+        margin-top: 170px;
+        margin-bottom: 50px;
+    }
 
     .quotationMark {
-        width : 360px;
+        width : 400px;
         justify-content: space-between;
         font-size: 20px;
         font-weight: 400;
         position: relative;
-        top: 20px;
+        top: 40px;
     }
     .quotation {
         font-size: 20px;
         line-height: 31px;
         font-weight: 400;
-        white-space: pre-line;
+
         text-align: center;
-        margin-bottom : 30px;
+        // margin-bottom : 30px;
     }
-    .quotationRef {
+    .caption {
         text-align: center;
-        font-size: 11px;
         font-weight: 200;
+    }
+
+    .divider {
+        width : 220px;
+        min-height: 1px;
+        height: 1px;
+        background-color: #ffffff;
+        margin : 93px auto 80px auto;
+    }
+
+    button.button__moveToTop{
+        position : relative;
+        bottom : 0px;
+        right : 0px;
+        margin-top : 80px;
     }
 }
