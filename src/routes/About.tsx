@@ -7,36 +7,14 @@ import { useEffect, useState } from 'react';
 
 const About = () => {
     const language = useSelector((state: LanguageState) => state.language);
-    const [ index, setIndex ] = useState<number>(1);
-
-    const handleIndex = ( targetIndex : number ) => {
-        // if target is under 1,
-        if( targetIndex <= 0 ) return;
-        // if target is over 4,
-        if( targetIndex > 4) return;
-
-        setIndex(targetIndex);
-    }
-
-    useEffect(() => {
-        // when index is updated,
-        // move scroll
-        console.log(index);
-        const target = document.getElementById(`slide-${index}`);
-        if(target) {
-            console.log(target.offsetTop);
-            window.scrollTo({ top : target.offsetTop, left: 0, behavior : 'smooth'});
-        }
-    }, [index])
 
     const element = 
-    <div className="About__container">
-        <div className="About__controller">
-            <button className="top" onClick={() => handleIndex(index - 1)}>prev</button>
-            <button className="bottom" onClick={() => handleIndex(index + 1)}>next</button>
-        </div>
+    <div className="About__container container">
 
         <Slide1 language={language} />
+        <Slide2 language={language} />
+        <Slide3 language={language} />
+        <Slide4 language={language} />
 
     </div>;
 
@@ -52,6 +30,7 @@ type SlideProps = {
 const Slide1 : React.FC<SlideProps> = ({ language }) => {
     return(
     <div className="About__slide" id="slide-1">
+        <div className="slide-wrapper">
         <div className="title">
         {
             language === LANG_KO ?
@@ -77,13 +56,14 @@ const Slide1 : React.FC<SlideProps> = ({ language }) => {
             </div>
         </div>            
     </div>
+    </div>
     );
 }
 
 const Slide2 : React.FC<SlideProps> = ({ language }) => {
     return(
-    <div className="scrollableContainer">
     <div className="About__slide" id="slide-2">
+        <div className="slide-wrapper">
         <div className="title">
         {
             language === LANG_KO ?
@@ -187,38 +167,37 @@ const Slide2 : React.FC<SlideProps> = ({ language }) => {
 
 const Slide3 : React.FC<SlideProps> = ({language}) => {
     return(
-    <div className="scrollableContainer">
-        <div className="About__slide" id="slide-3">
-            <div className="title">
-            {
-                language === LANG_KO ?
-                "어떻게 3D 파일은 제작되나요?" :
-                "And how are these 3D files made?"
-            }
-            </div> 
-            <div className="title sub">
-            {
-                language === LANG_KO ?
-                "다음 세 절차를 거쳐 제작됩니다." :
-                "The files are made through three procedures."
-            }
-            </div>
-
-            <div className="content flex flex-ai-c">
-            {
-                language === LANG_KO ?
-                <img className="process" src={require('../data/about_3_kor.png').default} /> :
-                <img className="process" src={require('../data/about_3_eng.png').default} />
-            }
-            </div>
+    <div className="About__slide" id="slide-3">
+        <div className="slide-wrapper">
+        <div className="title" style={{marginBottom: '20px'}}>
+        {
+            language === LANG_KO ?
+            "어떻게 3D 파일은 제작되나요?" :
+            "And how are these 3D files made?"
+        }
+        </div> 
+        <div className="title sub">
+        {
+            language === LANG_KO ?
+            "다음 세 절차를 거쳐 제작됩니다." :
+            "The files are made through three procedures."
+        }
         </div>
+
+        <div className="content flex flex-ai-c">
+        {
+            language === LANG_KO ?
+            <img className="process" src={require('../data/about_3_kor.png').default} /> :
+            <img className="process" src={require('../data/about_3_eng.png').default} />
+        }
+        </div>
+    </div>
     </div>
     );
 }
 
 const Slide4 : React.FC<SlideProps> = ({ language }) => {
     return(
-    <div className="scrollableContainer">
     <div className="About__slide" id="slide-4">
         <img className="title-img" src={require('../data/about_4.png').default} alt="img"/>
 
@@ -265,7 +244,6 @@ const Slide4 : React.FC<SlideProps> = ({ language }) => {
 
         <MoveTopButton />
 
-    </div>
     </div>
     );
 }
