@@ -19,7 +19,7 @@ const Archive : React.FC<ArchiveProps> = ({ region, artworks }) => {
     const tags : Array<string> = artworks.map((x) => x.trend)
     const tagsSet : Array<string> = tags.filter((x, i) => tags?.findIndex(tag => tag === x) === i)
 
-    
+ 
     const element : JSX.Element = (
     <>
         <MoveTopButton />
@@ -36,7 +36,7 @@ const Archive : React.FC<ArchiveProps> = ({ region, artworks }) => {
                 tagsSet={tagsSet}
             />
 
-            <div className="columns">
+            <div className="columns" >
             {
                 artworks
                 .filter((data) => tagIndex === -1 || data.trend === tagsSet[tagIndex])

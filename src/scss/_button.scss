@@ -11,6 +11,7 @@ button.button__moveToTop {
     position : fixed;
     bottom : 46px;
     right : 46px;
+    z-index: 999;
   
     svg {
       fill : $dark-gray;

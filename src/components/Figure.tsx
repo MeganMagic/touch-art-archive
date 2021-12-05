@@ -6,14 +6,14 @@ import { useSelector } from 'react-redux';
 import { LanguageState, LANG_KO, LANG_EN } from '../language';
 
 type FigureProps = {
-    data : ArtData
+    data : ArtData;
 }
 
 const Figure : React.FC<FigureProps> = ({ data }) => {
     const language = useSelector((state : LanguageState) => state.language)
 
     const element = (
-        <div className="figure">
+        <div className="figure" >
             <Link to={`/artwork/${data.artworkId}`}>
 
                 <img src={data.imgLink} alt={language == LANG_KO ? data.title_ko : data.title_en} />

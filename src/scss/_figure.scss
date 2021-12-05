@@ -1,32 +1,30 @@
 .columns {
     column-width:300px;
-    border: 0px solid green;
   
     .figure {
-      display : inline-block;
-      border: 0px solid red;
-      margin : 0;
-      column-gap: 15px;
-      margin-bottom: 15px;
-      transition: opacity .4s ease-in-out;
+        display : inline-block;
+
+        margin : 0;
+        column-gap: 15px;
+        margin-bottom: 15px;
+        
+        transition: opacity .4s ease-in-out;
   
-      img {
-        width : 100%;
-      }
-      .caption {
-        font-weight:700; 
-        font-size: 16px; 
-        color: $light-gray;
-      }
-      .figure-artist {
-        opacity : 0.4;
-      }
+        img {
+            width : 100%;
+        }
+        .caption {
+            font-weight:700; 
+            font-size: 16px; 
+            color: $light-gray;
+        }
+        .figure-artist {
+            opacity : 0.4;
+        }
     }
   
-    &:hover figure:not(:hover) {
+    &:hover .figure:not(:hover) {
       opacity: 0.4;
     }
   
-  }
-  
-  
+}
