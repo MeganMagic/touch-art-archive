@@ -3,15 +3,18 @@ export const KOREAN : string = "korean"
 
 export type Region = {
     regionId : string;
-    title : string;
+    title_en : string;
+    title_ko : string;
 }
 export const RegionWestern : Region = {
     regionId : WESTERN,
-    title : 'Western',
+    title_en : 'Western',
+    title_ko : '서양'
 }
 export const RegionKorean : Region = {
     regionId : KOREAN,
-    title : "Korean",
+    title_en : "Korean",
+    title_ko : "한국"
 }
 
 

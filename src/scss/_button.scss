@@ -34,6 +34,7 @@ button.button__back {
     position: absolute;
     top : 50%;
     left : 20px;
+    z-index: 999;
     transform: translateY(-50%);
   
     transition : all 0.2s ease-in-out;

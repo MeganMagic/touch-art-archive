@@ -51,11 +51,21 @@ const Main : React.FC = () => {
                     </div>
                 </Link>
 
-                <div className="question Main__button">
-                    <div className="font-global">
-                        ?
+                <a 
+                    href={
+                        language === LANG_KO ? 
+                        "https://touchartarchive.s3.ap-northeast-2.amazonaws.com/touchartarchive_help_kor.pdf" :
+                        "https://touchartarchive.s3.ap-northeast-2.amazonaws.com/touchartarchive_help_eng.pdf"
+                    } 
+                    download
+                    target="blank"
+                >
+                    <div className="question Main__button">
+                        <div className="font-global">
+                            ?
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             
         </div>

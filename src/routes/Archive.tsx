@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-
+import { useSelector } from 'react-redux';
+import { LanguageState, LANG_KO } from '../language'
 
 import Figure from "../components/Figure";
 import MoveTopButton from "../components/MoveTopButton";
@@ -15,8 +16,13 @@ type ArchiveProps = {
 
 const Archive : React.FC<ArchiveProps> = ({ region, artworks }) => {
 
+    const language = useSelector((state: LanguageState) => state.language);
+
     const [ tagIndex, setTagIndex ] = useState<number>(-1)
-    const tags : Array<string> = artworks.map((x) => x.trend)
+    const tags : Array<string> = 
+        language === LANG_KO ? 
+        artworks.map((x) => x.trend) : 
+        artworks.map((x) => x.school)
     const tagsSet : Array<string> = tags.filter((x, i) => tags?.findIndex(tag => tag === x) === i)
 
  
@@ -27,7 +33,11 @@ const Archive : React.FC<ArchiveProps> = ({ region, artworks }) => {
         <div className="Archive__container">
 
             <div className="title font-global text-center">
-                Archive : {region.title} Art History
+            {
+                language === LANG_KO ?
+                `${region.title_ko} 미술사` :
+                `Archive : ${region.title_en} Art History`
+            }
             </div>
   
             <Tags 
@@ -60,6 +70,8 @@ type TagsProps = {
 }
 const Tags : React.FC<TagsProps> = ({ selectedTagIndex, selectTag, tagsSet}) => {
 
+    const language = useSelector((state: LanguageState) => state.language);
+
     const handleTag = (newTagIndex : number) => {
         if( selectedTagIndex !== newTagIndex) {
             selectTag(newTagIndex)
@@ -69,7 +81,7 @@ const Tags : React.FC<TagsProps> = ({ selectedTagIndex, selectTag, tagsSet}) => 
     const element = 
     <ul className="tags">
         <li className={`tag ${selectedTagIndex === -1 ? 'selected' : ''}`} onClick={() => handleTag(-1)}>
-            전체
+        { language === LANG_KO ? '전체' : 'All'}
         </li>  
         {
             tagsSet.map((tag, index) => 
