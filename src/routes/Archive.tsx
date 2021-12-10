@@ -49,7 +49,7 @@ const Archive : React.FC<ArchiveProps> = ({ region, artworks }) => {
             <div className="columns" >
             {
                 artworks
-                .filter((data) => tagIndex === -1 || data.trend === tagsSet[tagIndex])
+                .filter((data) => tagIndex === -1 || data.trend === tagsSet[tagIndex] || data.school === tagsSet[tagIndex])
                 .map((data, i) => <Figure data={data}/>)
             }
             </div>
