@@ -4,6 +4,7 @@ import MoveTopButton from '../components/MoveTopButton';
 import Logo from '../components/Logo';
 import { LanguageState, LanguageType, LANG_KO } from '../language'
 import { useEffect, useState } from 'react';
+import { Helmet } from 'react-helmet';
 
 const About = () => {
     const language = useSelector((state: LanguageState) => state.language);
@@ -30,6 +31,10 @@ type SlideProps = {
 const Slide1 : React.FC<SlideProps> = ({ language }) => {
     return(
     <div className="About__slide" id="slide-1">
+        <Helmet>
+            <title>About</title>
+        </Helmet>
+
         <div className="slide-wrapper">
         <div className="title">
         {

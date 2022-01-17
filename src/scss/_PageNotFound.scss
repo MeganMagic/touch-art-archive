@@ -1,0 +1,38 @@
+.PageNotFound {
+    width : 100vw;
+    margin-top : 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    .title {
+        font-size: 32px;
+        font-weight: 700;
+        color : $white;
+        margin-bottom: 50px;
+    }
+
+    .subTitle {
+        font-size : 20px;
+        color : $light-gray;
+        margin-bottom: 10px;
+    }
+
+    button.toHome {
+        padding : 20px 30px;
+        background-color: rgba($light-gray, 0.1);
+        color : $light-gray;
+        font-weight: 700;
+        font-size: 20px;
+        
+        border-radius: 100px;
+        transition : all 0.2s ease-in-out;
+
+        &:hover {
+            background-color: $orange;
+            color : $white;
+        }
+    }
+}

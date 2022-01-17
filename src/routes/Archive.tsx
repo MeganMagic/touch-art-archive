@@ -6,6 +6,7 @@ import Figure from "../components/Figure";
 import MoveTopButton from "../components/MoveTopButton";
 
 import { Region, ArtData } from '../variables';
+import { Helmet } from "react-helmet";
 
 
 
@@ -28,6 +29,16 @@ const Archive : React.FC<ArchiveProps> = ({ region, artworks }) => {
  
     const element : JSX.Element = (
     <>
+        <Helmet>
+            <title>
+                {
+                    language === LANG_KO ?
+                    `${region.title_ko} 미술사` :
+                    `${region.title_en} Art History`
+                }
+            </title>
+        </Helmet>
+
         <MoveTopButton />
   
         <div className="Archive__container">

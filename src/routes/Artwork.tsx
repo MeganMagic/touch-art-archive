@@ -3,9 +3,9 @@ import { useParams } from "react-router-dom";
 import { useSelector } from 'react-redux';
 import { LanguageState, LANG_KO } from '../language'
 
-import BackButton from "../components/BackButton";
 
 import { getArtworkData } from "../data/useData";
+import { Helmet } from "react-helmet";
 const embedLink = "https://sketchfab.com/models/73479cba1d554be4bf478dea62cdb63c/embed"
 
 const Artwork = () => {
@@ -16,6 +16,12 @@ const Artwork = () => {
 
     const element : JSX.Element = 
     <>
+        <Helmet>
+            <title>
+                { data?.title_en } / { data?.title_ko }
+            </title>
+        </Helmet>
+        
         <div className="Artwork__container">
 
             <Sketchfab embedLink={data ? data.sketchfabLink : ""} />
